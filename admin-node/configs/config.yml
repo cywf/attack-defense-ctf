@@ -8,14 +8,14 @@ checker:
   - name: ExampleTask
     cost: 3
     hp: 1000
-    script: example_service.py
+    script: #example_service.py
 
 exploits:
   - name: ExampleTask
-    script: example_exploit.py
+    script: #example_exploit.py
     rounds: 1-10,15-20,25-1000
 
 news:
   - round: 25
-    text: "[⁠](http://risovach.ru/upload/2016/04/mem/pinok_111999269_orig_.jpg)"
+    text: "[⁠]()"
     #filename: test_news.md

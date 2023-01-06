@@ -5,7 +5,7 @@ log-pipeline:
   sink:
     - opensearch:
         hosts:
-          - "https://opensearch-node1:9200"
+          -  #"https://opensearch-node1:9200"
         username: "admin"
         password: "admin"
         trace_analytics_raw: true

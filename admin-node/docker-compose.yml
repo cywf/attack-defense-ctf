@@ -78,8 +78,8 @@ services:
       - ./openvpn/ccd_master:/mnt/ccd
 
   fileserver:
-    container_name: fileserver
-    image: explabs/fileserver
+    container_name: #fileserver (todo: change fileserver)
+    image: #explabs/fileserver (todo: change image)
     volumes:
       - ./tasks:/tasks
     ports:
@@ -89,6 +89,7 @@ services:
 volumes:
   mongo-data:
   redis-data:
+
 
 networks:
   ad-paas-net:
